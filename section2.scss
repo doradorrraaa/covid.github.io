@@ -1,0 +1,221 @@
+.section2__wrapper {
+    width: 100%;
+    // height: 2000px;
+    margin: auto;
+    padding-bottom: 40PX;
+    background: #00B7B4;
+    box-shadow: -294px 390px 196px rgba(0, 0, 0, 0.01), -166px 220px 165px rgba(0, 0, 0, 0.05), -74px 98px 122px rgba(0, 0, 0, 0.09), -18px 24px 67px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.top__header {
+    text-align: center;
+    font-family: 'Assistant',sans-serif;
+    font-style: normal;
+    line-height: 56px;
+    color: #FFFFFF;
+    padding: 40px 0 20px 0;
+}
+
+.first__header {
+    font-size: 48px;
+}
+
+.second__header {
+    font-size: 35px;
+    margin-top: 65px;
+}
+
+.left__border {
+    width: 800px;
+    height: 790px;
+    background: #D9D9D9;
+    border-radius: 0 431px 431px 0;
+    position: relative;
+}
+
+.right__border {
+    width: 800px;
+    height: 790px;
+    background: #D9D9D9;
+    border-radius: 431px 0 0 431px;
+}
+
+.ellipses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rigth_border_img {
+    height: 720px;
+    width: 360px;
+    position: relative;
+    left: 30px;   
+    top: 35px; 
+    
+}
+
+.left__border img {
+    height: 720px;
+    width: 360px;
+    position: absolute;
+    right: 30px;
+    top: 35px; 
+}
+
+.border_description {
+    font-family: 'Assistant', sans-serif;
+    font-style: normal;
+    line-height: 37px;
+    color: #3F47AA;
+    width: 370px;
+    padding:30px 0 0 30px;
+}
+
+.blue__header1_style {
+    font-weight: 700;
+    font-size: 27px;
+    text-align: right;
+}
+
+.blue__header2_style {
+    font-weight: 700;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #868DE5;
+    text-align: right;
+}
+
+.left__border {
+    display: flex;
+}
+
+.left__border_blue_style {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+.left__border_center_blue {
+    text-align: center;
+    margin: 80px 0 40px 0;
+}
+
+.left_border_list {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 70px;
+}
+
+.left_border_list ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.left_border_list li {
+    padding-bottom: 20px;
+}
+
+.left__border_second_list {
+    margin-left: 60px;
+}
+
+.section2__green_button {
+    button {
+        font-family: 'Assistant',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: #FFFFFF;
+        background: #6BD276;
+        border-radius: 10px;
+        width: 350px;
+        height: 72px;
+        margin: auto;
+    }
+}
+
+.right__border {
+    display: flex;
+}
+
+.right__border_description {
+    font-family: 'Assistant', sans-serif;
+    font-style: normal;
+    line-height: 37px;
+    color: #3F47AA;
+    width: 370px;
+    margin: 30px 0 0 60px;
+    
+   
+}
+
+.blue__header1_style_right {
+    font-weight: 700;
+    font-size: 27px;
+    text-align: left;
+}
+
+.blue__header2_style_right {
+    font-weight: 700;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #868DE5;
+    text-align: left;
+}
+
+.choose__location_text {
+    font-family: 'Assistant',sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 19px;
+    line-height: 31px;
+    color: #3F47AA;
+    margin: 50px 0 20px 0;
+}
+
+.choose__location {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.choose__location p {
+    width: 157px;
+    text-align: center;
+}
+
+.choose__location_VanNuys {
+    display: flex;
+    justify-content: center;
+    // gap: 20px;
+}
+
+.location__padding_right {
+    padding-right: 55px;
+}
+
+.location__padding_left {
+    padding-left: 30px;
+}
+
+.choose__location_VanNuys img {
+    width: 157px;
+    height: 108px;
+    
+}
+
+.choose__location_city {
+    font-family: 'Assistant',sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    color: #868DE5;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,156 @@
+body {
+    background-color: #EFF2F9;
+}
+
+main {
+    height: 1335px;
+    width: 100%;
+}
+.background__image {
+    background: linear-gradient(180deg, rgba(239, 242, 249, 0) 0%, #EFF2F9 70.31%), url(/img/bacterias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    // filter: drop-shadow(-294px 390px 196px rgba(0, 0, 0, 0.01)) drop-shadow(-166px 220px 165px rgba(0, 0, 0, 0.05)) drop-shadow(-74px 98px 122px rgba(0, 0, 0, 0.09)) drop-shadow(-18px 24px 67px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+}
+
+.wrapper {
+    width: 1226px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.top__text {
+    height: 400px;
+    font-family: 'Assistant', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+    color: #0F0F0F;
+    padding: 140px 0;
+    width: 1360px;
+}
+
+.top__small_text {
+    font-size: 25px;
+    padding-left: 357px;
+}
+
+
+header {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    padding: 0 5px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    font-family: 'Assistant', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #0F0F0F;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.header__contact {
+    button{
+        background: #6BD276;
+        border-radius: 10px;
+        width: 165px;
+        height: 41px;
+        font-family: 'Assistant',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.1vw;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        justify-content: center;
+    }
+    display: flex;
+    align-items: center;
+}
+
+// section1
+.li__style_section1 {
+    font-family: 'Assistant', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 42px;
+    color: #0F0F0F;
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+.li__flex_section1 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 75px;;
+    gap: 33px;
+}
+.li__flex_section1 img{
+    width: 63px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 77px; 
+    position:relative;
+    height: 771px;
+}
+.container__img{
+    padding-top: 125px;
+}
+
+
+
+.section1__green_button {
+    button {
+        font-family: 'Assistant', sans-serif;
+        font-style: normal;
+        font-size: 27px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        background: #6BD276;
+        border-radius: 10px;
+        width: 300px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
